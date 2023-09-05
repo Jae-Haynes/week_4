@@ -1,0 +1,130 @@
+.features{
+    background-color: black;
+    display: flex;
+}
+
+
+.features a{
+    color:#add8e6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.features a.hover{
+    background-color: black;
+    color: lightblue;
+}
+
+.spacer{
+    flex-grow: 1;
+}
+
+.split{
+    background:black;
+    color:#add8e6;
+}
+
+
+h1{
+    color:navy;
+    font-size: xx-large;
+    font-family: 'Times New Roman'; 
+}
+
+h2{
+    color:navy
+}
+html, body{
+    padding:0;
+    margin:0;
+}
+
+#main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#greece_main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greece_pictures{
+    display:flex;
+    justify-content: center;
+    /* max-width: 300px;
+    max-height: 300px; */
+    align-items: left;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
+    
+}
+
+#japan_main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.japan_pictures{
+    display:flex;
+    justify-content: center;
+    /* max-width: 300px;
+    max-height: 300px; */
+    align-items: left;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
+    
+}
+img{
+    width:80%;
+}
+
+
+#Working {
+    max-width: 500px;
+}
+
+.Socials {
+    display: flex;
+    background-color:black;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Socials a{
+    text-decoration: none;
+    padding: 1em;
+    color: lightblue
+}
+
+#Overview{
+    text-align: center;
+}
+
+body{
+    background-color: wheat;
+}
